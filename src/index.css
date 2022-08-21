@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #f6d6a7;
+}
+.poison {
+  background-color: #e0a7f6;
+}
+.normal {
+  background-color: #f4f4f4;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.fire {
+  background-color: #fbe3df;
+}
+.grass {
+  background-color: #e2f9e1;
+}
+.water {
+  background-color: #e0f1fd;
+}
+
+* {
+  margin: 0px;
+}
+
+nav {
+  background-color: rgb(229, 76, 11);
+  height: 130px;
+  color: rgb(105, 6, 102);
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 20vh;
+}
+
+.navbar-img {
+  width: 350px;
+}
+
+.Searchbar-container {
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 2px;
+  align-items: center;
+}
+
+.Searchbar {
+  background: rgb(117, 113, 113);
+  margin-right: 20px;
+}
+
+.Searchbar input {
+  padding: 10px;
+  box-shadow: 1px 2px 3px 4px rgb(8, 9, 8);
+  border-radius: 3px;
+  border: 2px;
+  height: 30px;
+  width: 350px;
+}
+
+.Searchbar input:focus {
+  outline: none;
+}
+
+.Searchbar-btn button {
+  background-color: rgb(215, 80, 1);
+  color: whitesmoke;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 12px;
+  height: 50px;
+  width: 100px;
+  align-items: flex-start;
+}
+
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  padding: 3rem 0.5rem;
+}
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: rgb(46, 1, 51);
+}
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+h3 {
+  margin-bottom: 0.2rem;
+}
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+.thumb-container small {
+  text-transform: capitalize;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+  cursor: pointer;
+}
+.load-more {
+  background: #f5f5f5 linear-gradient(#f5f5f5, #f1f1f1) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #3c0245;
+  color: rgb(53, 2, 67);
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+  font-size: 35px;
+  cursor: pointer;
+}
+.display-pokemon {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  color: rgb(49, 2, 58);
+  background-color: #f7ea2ef3;
+  border: 2px 3px 4px #0e0905;
+  border-radius: 20px;
+  position: relative;
+  left: 100px;
+  align-items: center;
+  text-align: center;
+  float: left;
+  display: flex;
+}
+
+.poke-img {
+  height: 220px;
+  width: 300px;
+}
+
+.name-poke {
+  font-size: 60px;
+  font-family: 'Dynapuff';
+}
