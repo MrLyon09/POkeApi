@@ -38,8 +38,7 @@ const App = () => {
     <div>
       <Navbar />
       <div className="app-container">
-        <Search />
-        
+        <Search />   
       </div>
 
       <div className="pokemon-container">

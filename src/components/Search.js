@@ -10,8 +10,6 @@ const Search = () => {
   const onChange = (e) => {
     setSearch(e.target.value);
     
-       
-    
   };
 
   const Click = async (e) => {
